@@ -1,0 +1,16 @@
+port:localhost:8098
+
+angular port: localhost:4200
+
+database table name: Health_Spring
+
+postman:
+ http:localhost:8098/healthcare/add
+  
+ http://localhost:8098/healthcare/getCenter/{center_id}
+ 
+ localhost:8098/healthcare/display
+ 
+ localhost:8098/healthcare/deleteCenter/{center_id}
+
+
